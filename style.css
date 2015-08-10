@@ -1,0 +1,59 @@
+html {
+	box-sizing: border-box;
+	background-color: #697C8C;
+	color: #734F69;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header {
+  border: 6px solid #734F69;
+  margin: 10px;
+  padding: 30px;
+  width: 600px;
+  background-color: #F2E2CE;
+
+}
+
+a {  
+    color: #697C8C;
+    font-style: italic;
+}
+
+
+div {
+  border: 6px solid #734F69;
+  background-color:#F2E2CE;
+  text-align: left;
+  margin: 10px;
+  padding: 30px;
+  width: 600px;
+}
+
+contact { color: black;
+	  text-align: left;
+	  word-spacing: 89px;
+
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+
+h1:hover {
+  transform: scale(.9);
+}
+h2:hover {
+  transform: scale(.9);
+}
