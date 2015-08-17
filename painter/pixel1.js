@@ -1,17 +1,26 @@
+
+
 body = document.querySelectorAll('body')[0];
+var divCenter = document.createElement('div');
+body.appendChild(divCenter);
+divCenter.style.paddingLeft = '12%';
+divCenter.style.paddingTop= '2%';
+divCenter.style.paddingRight = '12%';
+
+
 
 function divMaker(num) {
 	for(var i = 0; i <num; i++) {
 		var box= document.createElement('div');
 		box.style.backgroundColor= 'white';
 		box.style.border= 'solid 1px black';
-		box.style.width = '2.1%';
+		box.style.width = '2%';
 		box.style.float ='left';
-		box.style.paddingBottom= '2.1%';
-		body.appendChild(box);
+		box.style.paddingBottom= '2%';
+		divCenter.appendChild(box);
 	}
 }
-divMaker(1722)
+divMaker(1035)
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF'.split('');
@@ -23,14 +32,14 @@ function getRandomColor() {
 }
 
 function palletMaker() {
-	for(var i = 0; i <23; i++) {
+	for(var i = 0; i <45; i++) {
 		var boxy= document.createElement('div');
 		boxy.style.backgroundColor=getRandomColor();
-		boxy.style.width = '4%';
+		boxy.style.width = '2%';
 		boxy.style.float ='left';
 		boxy.style.border= 'solid 1px black';
-		boxy.style.paddingBottom= '4%';
-		body.appendChild(boxy);
+		boxy.style.paddingBottom= '2%';
+		divCenter.appendChild(boxy);
 		boxy.addEventListener('click', function(){
 			paintbrush(this);
 });
