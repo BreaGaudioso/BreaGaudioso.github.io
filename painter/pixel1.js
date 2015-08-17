@@ -1,12 +1,10 @@
 
-
 body = document.querySelectorAll('body')[0];
 var divCenter = document.createElement('div');
 body.appendChild(divCenter);
 divCenter.style.paddingLeft = '12%';
 divCenter.style.paddingTop= '2%';
 divCenter.style.paddingRight = '12%';
-
 
 
 function divMaker(num) {
