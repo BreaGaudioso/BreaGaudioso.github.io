@@ -5,7 +5,7 @@ var board = [];
 var click1 = false;
 var click2 = false;
 var game = false;
-var welcome= "JUNGLE JAM"
+var welcome= "ANI_MATCH"
 var divTop = document.createElement('div');
 body.appendChild(divTop);
 divTop.style.paddingLeft = '10%';
