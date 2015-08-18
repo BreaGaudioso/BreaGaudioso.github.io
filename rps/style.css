@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+}
+h1 {
+  font-size:68px;
+  font-weight:300;
+  text-align: center;
+  margin:5px 5px 5px 5px;
+  padding-right: 11.1%;
+	padding-left: 11.1%;
+}
+
+div{
+	width: 15%;
+	height: 60%;
+	float: left;
+	color: black;
+	margin:5px 5px 5px;
+	padding-right: 8.1%;
+	padding-left: 6.1%;
+	border: black solid 5px;
+}
+
+#big{
+	width: 90%;
+	margin:none;
+	border: none;
+	float: none;
+	padding: none;
+	font-size:20px;
+
+}
+
+#rock{
+ background-image: url("rock.jpg");
+ background-size:50%;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+#paper{
+	background-image: url("paper.jpg");
+	 background-size:50%;
+	background-position: center;
+ 	background-repeat: no-repeat;
+}
+
+#scissors{
+	background-image: url("scissors.jpg");
+  background-size:50%;
+   background-position: center;
+ 	background-repeat: no-repeat;
+}
+
+#answer {
+	width: 70%;
+	height: 30%;
+	text-align: center;
+	padding-top: 2.1%;
+	padding-right: 11.1%;
+	padding-left: 11.1%;
+	border: white solid 5px;
+}
+
