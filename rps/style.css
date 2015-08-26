@@ -44,7 +44,7 @@ div{
 
 #paper{
 	background-image: url("paper.jpg");
-	 background-size:50%;
+	background-size:50%;
 	background-position: center;
  	background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@ div{
 #scissors{
 	background-image: url("scissors.jpg");
   background-size:50%;
-   background-position: center;
+  background-position: center;
  	background-repeat: no-repeat;
 }
 
