@@ -6,10 +6,6 @@ body {
 
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
 header {
   border: 6px solid #212121;
    color: #212121;
@@ -39,13 +35,14 @@ div {
 
 }
 
-.left {
+.left{
     float: left;
-    width: 50%;
+    margin right: 50%;
+    width:25%;
 }
 
-.right {
+.right{
     float: right;
     width: 50%;
+     margin left: 50%;
 }
-
